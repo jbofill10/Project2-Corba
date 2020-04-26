@@ -1,0 +1,8 @@
+module Server
+{
+    interface Taxes
+    {
+    double calculateTax();
+    oneway void shutdown();
+    };
+};

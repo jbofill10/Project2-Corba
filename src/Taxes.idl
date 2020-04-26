@@ -1,0 +1,8 @@
+module Server
+{
+    interface Taxes
+    {
+    string calculateTax(in double salary, in double taxRate);
+    oneway void shutdown();
+    };
+};
